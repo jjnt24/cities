@@ -1,3 +1,6 @@
+pre-req:
+- winget install sqlcmd
+
 To inject 
 
  sqlcmd -S localhost -U <u> -P <pass> -d <db> -i .\Downloads\countries-states-cities-database-master\sqlserver\<files>.sql
